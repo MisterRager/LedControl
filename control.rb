@@ -22,5 +22,5 @@ out = out[ 0, len ]
 while true do
 	sp.write "#{out}\r\n"
 	out = (out[ -3, 3 ] + out)[0, len]
-	sleep 0.02
+	sleep 0.04
 end
